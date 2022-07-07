@@ -2,7 +2,7 @@
 
 
 ## about
-> [see details](bash/ipenv/DESCRIPTION.md)
+> [see details](DESCRIPTION.md)
 
 ## execute
 ```bash
