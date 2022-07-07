@@ -12,6 +12,9 @@ for dir in os.scandir('.'):
 		README.write("\n\n> {}".format(classifier))
 
 		for subdir in os.scandir(dir):
+			if os.path.isfile(subdir):
+				continue
+
 			gist = subdir.name
 
 			descPath = '{}/{}/{}'.format(dir.name, subdir.name, 'DESCRIPTION.md')
