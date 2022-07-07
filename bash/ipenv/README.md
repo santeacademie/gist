@@ -1,11 +1,13 @@
 ipenv
 #
 
-> Replace private IP of .env file by your machine's one
+about
+#
+> [see details](bash/ipenv/DESCRIPTION.md)
 
 execute
 #
 ```bash
-ipenv.sh
+ipenv
 ```
 
