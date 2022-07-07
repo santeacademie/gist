@@ -6,6 +6,5 @@
 
 
 > php
-- [ipenv](https://raw.githubusercontent.com/santeacademie/gist/master/php/ipenv/ipenv) | -
 
 
