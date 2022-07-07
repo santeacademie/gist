@@ -21,8 +21,7 @@ for dir in os.scandir('.'):
 				descFile = open(descPath, mode='r')
 				description = descFile.read()
 				descFile.close()
-
-			README.write("\n- [{}](https://raw.githubusercontent.com/santeacademie/gist/master/php/{}/{}) | {}".format(gist, gist, gist, description))
+			README.write("\n- [{}](https://raw.githubusercontent.com/santeacademie/gist/master/{}/{}/{}) | {}".format(classifier, gist, gist, gist, description))
 
 README.write("\n\n\n")
 README.close()
